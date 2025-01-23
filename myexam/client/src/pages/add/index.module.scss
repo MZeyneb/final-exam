@@ -1,0 +1,52 @@
+.box{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin-bottom: 20px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 20px;
+    }
+}
+
+.form{
+    .field{
+        font-size: 17px;
+        outline: none;
+        border: 1px solid gray;
+        padding: 3px 7px;
+    }
+    button{
+        padding: 3px 7px;
+        font-size: 17px;
+        cursor: pointer;
+        border: none;
+        transition: 0.3s;
+        background-color: #82AE46;
+        color: white;
+        border: 1px solid #82AE46;
+        &:hover{
+            color: #82AE46;
+            background-color: #e0e7d5;
+        }
+
+
+    }
+}
+
+.rowv{
+    button{
+        cursor: pointer;
+        font-size: 15px;
+        border: none;
+        background-color: rgb(201, 66, 66);
+        padding: 3px 6px;
+        color: white;
+        border-radius: 5px;
+    }
+}

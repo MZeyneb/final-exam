@@ -1,0 +1,54 @@
+footer{
+    border-top: 1px solid rgb(230, 230, 230);
+    padding: 80px 0;
+
+    .box{
+        
+        p{
+            font-size: 18px;
+            span{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .pm{
+        text-align: center;
+        margin-top: 50px;
+        a{
+            color: #82AE46;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 988px) {
+    
+    footer{
+        border-top: 1px solid rgb(230, 230, 230);
+        padding: 80px 0;
+        
+        .box{
+            padding: 0 50px;
+            
+            p{
+                font-size: 18px;
+                span{
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    
+        .pm{
+            text-align: center;
+            margin-top: 50px;
+            a{
+                color: #82AE46;
+            }
+        }
+    
+    }
+}
